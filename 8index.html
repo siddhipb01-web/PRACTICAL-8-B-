@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: lightgrey;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            margin: 80px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12pxlightgrey;
+        }
+
+        h2 {
+            color:purple;
+        }
+
+        p {
+            color: black;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>SIDDHI BORKAR</h2>
+        <p><b>Course:</b> Computer Technology</p>
+        <p>I am a student interested in web development.</p>
+        <p>Total Likes: <span id="likes">0</span></p>
+        <button id="likeBtn">Like</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <script src="8script.js"></script>
+</body>
+</html>
+
+
+
